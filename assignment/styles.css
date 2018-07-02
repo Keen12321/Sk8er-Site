@@ -1,0 +1,208 @@
+body {
+	background-image: url(../assets/bg.jpg);
+	background-size: 2500px;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+.container {
+	margin: auto;
+	width: 1000px;
+	height: 2000px;
+}
+
+.social {
+	display: block;
+	text-align: right;
+}
+
+
+.fa {
+	border-bottom: 4px solid rgb(124 125 122);
+	font-size: 30px;
+}
+
+.fa-facebook-f {
+	color: rgb(92 105 153);
+	background-color: rgb(52 66 132);
+}
+
+.fa-rss {
+	color: rgb(192 145 78);
+	background-color: rgb(176 116 37);
+}
+
+.fa-twitter {
+	color: rgb(122 144 194);
+	background-color: rgb(75 103 160);
+}
+
+.fa-youtube {
+	color: rgb(176 81 75);
+	background-color: rgb(142 33 31);
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h5 {
+	border-bottom: 4px solid rgb(124 125 122);
+	background: rgb(182 24 35);
+	color: white;
+	font:  16px arial, sans-serif;
+	height: 35px;
+	width: 240px;
+	line-height: 35px;
+	text-align: center;
+}
+
+h5::before {
+	content: "-";
+}
+
+h5::after {
+	content: "-";
+}
+
+.main-picture {
+	border: 7px solid white;
+	background-image: url(../assets/top-image.png), url(../assets/grid.png);
+	background-position: -200px 780px;
+	height: 350px;
+	overflow: hidden;
+}
+
+.logo {
+	position: relative;
+	left: 25px;
+	top: 50px;
+}
+
+#opacity {
+	width: 100%;
+	height: 1900px;
+	background: rgb(0,0,0, .5);
+	
+}
+
+.articles {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.article-1 {
+	background: white;
+	flex-direction: column;
+	padding: 10px 20px;
+	width: 285px;
+	border-bottom: 4px solid rgb(124 125 122); 
+
+}
+
+.article-2 {
+	background: white;
+	flex-direction: column;
+	padding: 10px 20px;
+	width: 285px;
+	border-bottom: 4px solid rgb(124 125 122);
+}
+
+.article-3 {
+	background: white;
+	flex-direction: column;
+	padding: 10px 20px;
+	width: 285px;
+	border-bottom: 4px solid rgb(124 125 122);
+}
+
+.skateboarders {
+	margin-top: 35px;
+	color: white;
+	display: flex;
+	width: 650px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.lance::before {
+	border: 5px solid white;
+}
+
+.lance {
+	border-bottom: 4px solid rgb(124 125 122);
+	background-image: url(../assets/sk8er-4.png);
+	background-position: 310px 0px;
+	height: 225px;
+	width: 305px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+}
+
+.rodney {
+	border: 5px solid white;
+	background-image: url(../assets/sk8er-3.png);
+	background-position: 0px 6px;
+	height: 225px;
+	width: 305px;
+}
+
+
+.steve {
+	border: 5px solid white;
+	background-image: url(../assets/sk8er-1.png);
+	background-position: 0px 275px;
+	height: 225px;
+	width: 630px;
+}
+
+.tommy {
+	border: 5px solid white;
+	color: white;
+	background-image: url(../assets/sk8er-2.png);
+	background-position: -385px 465px;
+	height: 470px;
+	width: 315px;
+	float: right;
+	position: relative;
+	top: -480px;
+}
+
+.skateboards {
+	border-bottom: 4px solid rgb(124 125 122);
+	position: absolute;
+	display: flex;
+	margin-top: 30px;
+	padding: 10px;
+	background-color: white;
+	width: 980px;
+	justify-content: space-around;
+}
+
+.info {
+	border-bottom: 4px solid rgb(124 125 122);
+	display: block;
+	margin-top: 350px;
+	background-color: white;
+}
+
+.text {
+	padding-right: 500px;
+}
+
+.form-fill-in {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 675px;
+	bottom: 120px;
+	width: 300px;
+	height: 120px;
+}
+
+
+
+
